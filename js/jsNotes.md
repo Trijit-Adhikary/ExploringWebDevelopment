@@ -102,3 +102,10 @@ const b = ++a;
 console.log(`a:${a}, b:${b}`);
 // Expected output: "a:4, b:4"
 ```
+
+### Strict check -
+
+```javaScript
+// ===
+// It will check the value as well as the DataType
+```
