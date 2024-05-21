@@ -11,7 +11,7 @@ console.table([typeof firstName, typeof midName, typeof lastName, typeof age, ty
 
 <br>
 
-## Variable -
+## Declare Variable -
 ```javaScript
 // accountId can't be changed
 const accountId = 1234
@@ -39,6 +39,7 @@ let accountState
 <br>
 
 ## Basic DataTypes -
+
 ```javaScript
 // string
 let firstName = "Trijit"
@@ -59,4 +60,45 @@ let married = false
 let address
 ```
 
+<br>
 
+## DataType Conversion operation -
+### String to Number:
+
+```javaScript
+// "33" => 33
+// "33abc" => NaN
+// null => 0
+// undefined => NaN
+
+console.log(Number(scroreInt))
+```
+
+### String/Number to Boolean:
+
+```javaScript
+// 1 => true; 0 => false
+// "" => false
+// "trijit" => true
+
+console.log(Boolean(val))
+```
+
+<br>
+
+## Operations -
+### Prefix and Postfix -
+
+```javaScript
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
+```
