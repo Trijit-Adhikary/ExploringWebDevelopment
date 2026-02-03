@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-theme-card: linear-gradient(var(--color-theme-card-hex) 0% 100%);
+    --color-theme-accent: #f54e00;
+    --color-theme-text: #edecec;
+    --color-theme-text-02: #d7d6d5;
+    --color-theme-text-dark: #14120b;
+    --color-theme-bg: #14120b;
+    --color-theme-bg-light: #edecec;
+    --color-theme-bg-light-shade: #d7d6d5;
+    --font-sans: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+    --text-sm: .875rem;
+}
+
+body {
+    background-color: var(--color-theme-bg);
+    color: var(--color-theme-text);
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container {
+    width: 1300px;
+    height: 52px;
+    /* border: 2px solid red; */
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-container .navigation a{
+    padding: 5.6px 15px;
+    text-decoration: none;
+    color: var(--color-theme-text);
+    font-size: 0.875rem;
+}
+
+.nav-container .navigation a:hover{
+    color: var(--color-theme-text-02);
+}
+
+.nav-container .sign-in-download a{
+    text-decoration: none;
+    color: var(--color-theme-text);
+    padding: 0.22em 0.8em 0.22em 0.8em;
+}
+
+.nav-container .sign-in-download .sign-in{
+    border: 1px solid #545351;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.nav-container .sign-in-download .download{
+    background-color: var(--color-theme-bg-light);
+    color: var(--color-theme-text-dark);
+    font-weight: 500;
+    border-radius: 20px;
+}
