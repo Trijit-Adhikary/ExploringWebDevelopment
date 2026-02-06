@@ -12,7 +12,10 @@
     --color-theme-text-light-dark: #d7d6d5b6;
     --color-theme-text-dark: #14120b;
     --color-theme-bg: #14120b;
-    --color-theme-bg-dark-shade: #1b1a13;
+    --color-theme-bg-dark-shade: #1a1913;
+    --color-theme-bg-dark-light-shade: #1b1913;
+    --color-theme-card-02-hex: #201e18;
+    --color-theme-bg-dark-light-shade-hover: #25241c;
     --color-theme-bg-dark-shade-hover: rgba(32, 31, 23, 0.967);
     --color-theme-bg-light-shade: #d7d4d4;
     --color-theme-bg-light: #edecec;
@@ -439,6 +442,48 @@ body {
 .team-container p{
     font-size: 22px;
     font-weight: 500;
+}
+
+/* HIGHLIGHTS SECTION */
+.highlights-container {
+    /* width: 1472.8px; */
+    height: 700.8px;
+    padding: 89.60px 20px;
+    margin-top: 220px;
+    background-color: var(--color-theme-bg-dark-light-shade);
+
+
+    display: flex;
+}
+.highlights-container .highlights-heading{
+    width: 325px;
+    height: 506.8px;
+    margin-left: 85px;
+}
+.highlights-container .highlights-cards-container .highlights-cards {
+    width: 620px;
+    height: 150.4px;
+    padding: 13.4px 15px 15px;
+    border-radius: 8px;
+    background-color: var(--color-theme-card-02-hex);
+    margin-bottom: 10px;
+}
+.highlights-container .highlights-cards-container .highlights-cards:hover {
+    background-color: var(--color-theme-bg-dark-light-shade-hover);
+}
+.highlights-cards-container .highlights-cards p,a{
+    color: var(--color-theme-text-light-dark);
+    text-decoration: none;
+}
+.highlights-cards-container .highlights-cards p b{
+    color: var(--color-theme-bg-light);
+}
+.highlights-lnk {
+    margin-top: 30px;
+}
+.highlights-final-lnk{
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 /* FINAL CTA SECTION */
