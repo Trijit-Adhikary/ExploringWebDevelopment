@@ -106,8 +106,9 @@ Built as part of the WebDev Cohort 2026 learning journey to master modern web de
 
 ## Screen Shot
 
-![Cursor Site SS](.\media\site_ss.png)
+![Cursor Site SS](.\css/Cursor_landing_page_clone/media/site_ss.png)
 
 <br>
 
-![alt text](.\media\site_ss2.png)
+![Cursor Site SS 2](.\css/Cursor_landing_page_clone/media/site_ss.png)
+
