@@ -103,3 +103,11 @@ Built as part of the WebDev Cohort 2026 learning journey to master modern web de
 ---
 
 **Last Updated**: February 2026
+
+## Screen Shot
+
+![Cursor Site SS](.\media\site_ss.png)
+
+<br>
+
+![alt text](.\media\site_ss2.png)
